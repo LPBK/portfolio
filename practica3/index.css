@@ -1,0 +1,53 @@
+body {
+    background-image: url("./img/lights-metro-garbage-train-wallpaper-preview.jpg");
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: gold;
+}
+
+#save-btn {
+    background: darkgrey;
+}
+#save-el{
+    color: gold;
+}
+div{
+    margin-top: 40px;
+    background-color: #f1f1;
+    max-width: fit-content;
+    max-height: fit-content;
+    box-shadow: none;
+    border: 2px darkgray solid;
+    padding: 10px;
+}
