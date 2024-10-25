@@ -120,3 +120,6 @@ button:hover {
 button:active {
     background-color: #1b87c2;
 }
+@media(width<=475px) {
+    
+}
