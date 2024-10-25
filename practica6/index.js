@@ -10,7 +10,7 @@ const cambiar=() => {
         numero--;
          document.getElementById("tiempo").innerText = numero;     
     }  
-    if(numero===0){
+  else  if(numero===0){
         inputEl.value=innerText=generarcodigo()
         numero=60
     } 
