@@ -9,12 +9,24 @@
 <body>
     <div class="container" id="container">
         <div class="title">
-            <h1 class="password">TWO STEPS</h1>
-            <h1 class="generator">AUTHENTICATOR</h1>    
+            <h1 class="towsteps">TWO STEPS</h1>
+            <h1 class="authenticator">AUTHENTICATOR</h1>    
         </div>
         <input type="text" id="input-field" class="input-field" readonly>
         <div id="tiempo" class="tiempo">60</div>
     </div>
+    <div class="container" id="container">
+        <div class="title">
+            <h1 class="password">PASSWORD</h1>
+            <h1 class="generator">GENERATOR</h1>    
+        </div>
+        <input type="number" placeholder="long" id="lenght" min="8" max="16" class="lenght">
+        <p id="passwordptn" class="passwordptn"></p>
+        <button id="generate" class="generate" onclick="mixear()">GENERATE  SECURE PASSWORD</button>
+    </div>
 </body>
 <script src="index.js"></script>
-</html>
+</html> 
+
+
+ 
